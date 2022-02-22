@@ -34,7 +34,19 @@
                   action="http://localhost:5050/user/register"
                 >
                   <div class="form-group">
-                    <label for="mail">E-Mail Address</label>
+                    <label for="name">Name</label>
+                    <input
+                      id="name"
+                      type="name"
+                      class="form-control"
+                      name="name"
+                      required
+                    />
+                    <div class="invalid-feedback">Your name is invalid</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="mail">Mail Address</label>
                     <input
                       id="email"
                       type="email"
